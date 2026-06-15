@@ -17,6 +17,39 @@
   }
 }
 
+.status-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.filter-label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.status-btn {
+  padding: 6px 16px;
+  border: 2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.status-btn:hover {
+  opacity: 0.85;
+}
+
+.status-btn.active {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 .hero {
   position: relative;
 

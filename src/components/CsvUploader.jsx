@@ -86,7 +86,7 @@ function CsvUploader({ onDataLoaded }) {
 
             longitude,
 
-            status: row["Status"] || "Unknown",
+            status: row["Development Stage (Status)"] || row["Status"] || "Unknown",
 
             notes:
               row[

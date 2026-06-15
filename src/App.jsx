@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>Australia Data Centre Map</h1>
+        <h1>Australia Data Center Map</h1>
       </header>
 
       <CsvUploader onDataLoaded={setLocations} />
